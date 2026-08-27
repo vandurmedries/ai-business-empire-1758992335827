@@ -1,10 +1,11 @@
 {
-  "name": "demandmine",
-  "version": "1.0.0",
+  "name": "demandmine-decision-passport",
+  "version": "2.0.0",
   "private": true,
-  "description": "DemandMine early-access product opportunity intelligence dashboard",
+  "description": "DemandMine Product Decision Passport — unit economics, downside stress tests and portable product decisions",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "check": "node --check server.js"
   },
   "engines": {
     "node": ">=20"
